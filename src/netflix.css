@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.header-section{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url('../public/image/header-bg.jpg');
+    height: 90vh;
+    background-size: cover;
+}
+.logo{
+    width:200px ;
+    
+}
+.signin{
+    background-color: #E50914!important;
+    color: white!important
+}
+.lan{background-color: transparent!important;color: white!important;width: 110px!important;border: none!important;}
+.fa-globe{color:white!important;position: absolute;top:50%;transform: translate(0,-50%);left:10px}
+.lan-dp{position: relative;text-align: center!important;border: 1px solid white!important;padding-left: 20px!important;border-radius: 5px!important;}
+.header-content{width: 70%;margin: auto;}
+.header-content h1{
+    font-size: 55px;
+    font-weight: bolder;
+}
+.get-search{width: 70%;margin: auto; }
+.get{width:200px}
+.search-input{background-color: transparent!important;color: white!important;}
+.bg{
+    width: 100%;
+    background-color: gray;padding: 7px;
+}
+.main-pro{
+    background-color: black;
+    color: white;
+    /* padding: 30px; */
+    z-index: 1;
+    
+}
+.provideo{
+    position: relative;
+    height: 500px;
+   
+  
+}
+video{
+    position: absolute;
+    top:13px;
+    /* left: 0;  */
+    /* z-index: -1; */
+    /* height: 500px; */
+    padding: 75px;
+    background: red;
+    max-width: 100%;
+}
+.provideo img{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 10;
+
+}
+.questions{
+    background-color: black;
+    color: white;
+}
+.accordian{
+    width: 70%!important;
+    border-radius: 0!important;
+}
+.accordion-button{
+    background-color: rgba(45,45,45,1)!important;
+    color: white!important;
+    font-size: 25px!important;
+    border: none!important;
+    outline: none!important;
+}
+.accordion-body
+{
+    background-color: rgba(45,45,45,1)!important;
+    color: white!important;
+    border: none!important;
+    outline: none!important;
+    border-radius: 0!important;
+}
+.accordion-item
+{
+    border:2px solid black!important;
+  
+}
+.accordion-item:first-of-type .accordion-button{
+    border-radius: 0!important;
+}
+.accordion-button::after{
+    background-image: none !important;
+}
+
+.plus{
+    /* margin: auto; */
+  position: absolute;
+  right:5%;
+  /* left: ; */
+}
+.footer{
+    background-color: black!important;
+    color: white!important;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer a{
+    color: white;
+}
+.newcls{
+    transform: rotate(45deg);
+    transition: 0.7s;
+}
